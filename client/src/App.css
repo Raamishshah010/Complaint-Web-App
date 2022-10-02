@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+:root {
+  --primary-color: #16c79a;
+  --font: "Raleway", sans-serif;
+  --shadow: 15px 30px 40px 0 rgba(0, 0, 0, 0.103);
+}
+
+body {
+  font-family: var(--font);
+  text-transform: capitalize;
+}
+
+table tr {
+  font-size: 15px !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.primary-button {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+.navbar-first {
+  background-color: #383838 !important;
+  box-shadow: var(--shadow);
+}
+
+.welcomeText {
+  font-size: 0.7rem !important;
+  color: #fff !important;
+  margin-right: 1rem;
+}
+.navbar {
+  background-color: var(--primary-color);
+  box-shadow: var(--shadow);
+}
+.logoText {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 0.2rem;
+}
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: 600;
+  color: #fff !important;
+}
+
+.complaintBtn {
+  background-color: #fff !important;
+  color: var(--primary-color) !important;
+  padding: 0.5rem 3rem !important;
+  border: none !important;
+  text-align: center !important;
+}
+
+.links {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #fff !important;
+  font-weight: 500;
+}
+
+/* MAIN Section */
+
+.main {
+  background-color: #fafafa;
+  padding-bottom: 5rem;
+}
+.main .main-content {
+  padding-top: 12rem;
+}
+.main h5 {
+  color: #3f3f3f !important;
+  font-family: var(--font);
+}
+.main h1 {
+  color: #3f3f3f !important;
+  font-family: var(--font);
+  font-weight: 900 !important;
+}
+.main p {
+  color: #3f3f3f !important;
+  font-family: var(--font);
+  margin-top: 2rem;
+  font-weight: 600 !important;
+}
+.main .customBtn {
+  background-color: var(--primary-color);
+  border: none;
+  font-family: var(--font);
+  padding: 0.8rem 3rem;
+  font-weight: 600 !important;
+}
+.main .customBtn:hover {
+  background-color: var(--primary-color);
+  border: none;
+  font-family: var(--font);
+  padding: 0.8rem 3rem;
+  font-weight: 600 !important;
+}
+
+/* secondSection Start */
+.secondSection {
+  margin-top: -2rem;
+}
+.secondSection .card {
+  border: none;
+  box-shadow: 1px 4px 10px rgba(150, 150, 150, 0.2);
+}
+.secondSection .card .spanLine {
+  width: 100% !important;
+  background-color: var(--primary-color) !important;
+  height: 0.4rem !important;
+}
+.secondSection .card .card-body {
+  padding: 3rem !important;
+}
+.secondSection .card img {
+  width: 80px;
+  margin-bottom: 2rem;
+}
+.secondSection .card a {
+  font-family: var(--font);
+  /* padding: .5rem 2rem; */
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+/* secondSection End */
+
+/* about Start */
+
+.about {
+  margin-top: 7rem;
+}
+.about img {
+  width: 90%;
+  height: 700px;
+  box-shadow: var(--shadow);
+  border-radius: 1rem;
+  margin-top: 8rem;
+}
+.about .aboutRow {
+  margin-top: 10rem;
+}
+.about .about-content {
+  margin-top: 7rem;
+}
+.about .about-content h2 {
+  font-size: 3rem !important;
+}
+.about .about-content p {
+  font-size: 1.2rem !important;
+}
+.about .about-content .listItems {
+  font-size: 1.2rem !important;
+  margin-left: -2rem;
+}
+
+.about .listItems {
+  margin-top: 2rem;
+}
+.about .listItems li {
+  list-style: none;
+}
+.about .aboutBottom {
+  margin-top: 4rem;
+}
+.about .aboutBottom button {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  border: none !important;
+}
+.about .aboutBottom .sign img {
+  width: 50px;
+  height: 50px;
+  box-shadow: none;
+  margin: 0 auto;
+}
+.about .aboutBottom .mayor {
+  font-size: 0.8rem !important;
+}
+.about .aboutRow img {
+  margin-top: 5rem;
+  width: 400px;
+  height: 66%;
+}
+.about .aboutRow .card {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 6px solid #fff;
+  width: 300px;
+  padding: 3rem 3rem;
+  margin-top: -5rem;
+  box-shadow: var(--shadow);
+  margin-left: 5rem;
+}
+
+.likeComplaint {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+
+.main-bg {
+  background: var(--primary-color) !important;
+}
+
+input:focus,
+button:focus {
+  border: 1px solid var(--primary-color) !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.card,
+.btn,
+input {
+  border-radius: 0 !important;
+}
+.image-upload-container .image {
+  height: 20rem;
+  width: 100%;
+}
+.image-upload-container .image-upload {
+  font-size: 2rem;
+  margin-left: 12rem;
+}
+
+.image-upload-container .image-upload .label {
+  cursor: pointer;
+}
+
+.image-upload-container .image-upload > input {
+  display: none;
+}
+
+.scrollable-div {
+  height: 70px;
+  max-height: 70px;
+  overflow-y: auto;
+}

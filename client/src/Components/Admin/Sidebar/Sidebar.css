@@ -1,0 +1,152 @@
+nav {
+  background: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 30px;
+}
+
+li {
+  list-style: none;
+}
+
+nav label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 250px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+nav ul li .bar-icon {
+  display: none;
+}
+
+.side-menu {
+  width: 250px;
+  height: 100vh;
+  color: #fff;
+  background-color: #0f1d31;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.side-menu .gravatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.side-menu .gravatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+.side-menu .gravatar p {
+  margin-bottom: 0 !important;
+}
+
+.side-menu .gravatar .profile-email {
+  text-transform: lowercase;
+  color: #cfcfcf;
+}
+.side-menu .gravatar .profile-name {
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.side-menu .side-menu-items {
+  background-color: #162944;
+  padding: 20px 0;
+}
+
+.side-menu a {
+  padding-left: 0 !important;
+  display: block;
+  line-height: 50px;
+  color: white;
+}
+
+.side-menu a.active {
+  padding-left: 0 !important;
+  display: block;
+  line-height: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+
+.side-menu a svg {
+  width: 100px;
+  font-size: 25px;
+}
+
+main {
+  margin-left: 270px;
+}
+
+@media screen and (max-width: 900px) {
+  nav label {
+    margin-left: 100px;
+  }
+  .side-menu {
+    width: 100px;
+  }
+  .side-menu .gravatar img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .side-menu .gravatar p {
+    display: none;
+  }
+
+  .side-menu a span {
+    display: none;
+  }
+
+  main {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  nav ul li svg {
+    display: block !important;
+  }
+
+  nav ul li button {
+    display: none !important;
+  }
+
+  .side-menu {
+    width: 100%;
+    left: 0;
+    position: relative;
+  }
+
+  .side-menu a span {
+    display: block;
+    text-align: center;
+  }
+  .side-menu a svg {
+    display: none;
+  }
+
+  nav label {
+    margin-left: 0px;
+  }
+}
